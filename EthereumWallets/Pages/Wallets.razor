@@ -1,0 +1,43 @@
+﻿@page "/wallets"
+
+@using EthereumWallets.Domain.Pagination
+
+<style>
+    .pointer:hover {
+        cursor: pointer;
+    }
+</style>
+
+<h1>Wallets</h1>
+
+@if (WalletList is null || !WalletList.Any())
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Address</th>
+                <th class="pointer" @onclick="@(() => Sort())">Balance@((MarkupString)_currentArrow)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var wallet in WalletList)
+            {
+                <tr>
+                    <td>@wallet.Id</td>
+                    <td>@wallet.Address</td>
+                    <td>@wallet.Balance</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="col">
+            <Pagination Metadata="Metadata" Spread="2" SelectedPage="SelectedPageCallback" />
+        </div>
+    </div>
+}

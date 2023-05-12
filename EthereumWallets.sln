@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EthereumWallets", "EthereumWallets\EthereumWallets.csproj", "{8575FFE1-AE6F-4D11-AA6C-A1B82C691138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumWallets.Node", "EthereumWallets.Node\EthereumWallets.Node.csproj", "{42637F93-6E40-4789-9FD3-C09843F7B527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumWallets.Database", "EthereumWallets.Database\EthereumWallets.Database.csproj", "{17B8445C-63A6-4E47-AFDB-31AB82ECB1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumWallets.Business", "EthereumWallets.Business\EthereumWallets.Business.csproj", "{8A2220B0-C2AF-432F-B841-6D4086DDF835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumWallets.Domain", "EthereumWallets.Domain\EthereumWallets.Domain.csproj", "{2CBE41FE-180A-4594-8662-3174EBEC5104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8575FFE1-AE6F-4D11-AA6C-A1B82C691138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8575FFE1-AE6F-4D11-AA6C-A1B82C691138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8575FFE1-AE6F-4D11-AA6C-A1B82C691138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8575FFE1-AE6F-4D11-AA6C-A1B82C691138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42637F93-6E40-4789-9FD3-C09843F7B527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42637F93-6E40-4789-9FD3-C09843F7B527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42637F93-6E40-4789-9FD3-C09843F7B527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42637F93-6E40-4789-9FD3-C09843F7B527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B8445C-63A6-4E47-AFDB-31AB82ECB1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B8445C-63A6-4E47-AFDB-31AB82ECB1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B8445C-63A6-4E47-AFDB-31AB82ECB1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B8445C-63A6-4E47-AFDB-31AB82ECB1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2220B0-C2AF-432F-B841-6D4086DDF835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2220B0-C2AF-432F-B841-6D4086DDF835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2220B0-C2AF-432F-B841-6D4086DDF835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2220B0-C2AF-432F-B841-6D4086DDF835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBE41FE-180A-4594-8662-3174EBEC5104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBE41FE-180A-4594-8662-3174EBEC5104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBE41FE-180A-4594-8662-3174EBEC5104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBE41FE-180A-4594-8662-3174EBEC5104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCC7BD87-D5DF-45ED-95B7-48A12AA101BF}
+	EndGlobalSection
+EndGlobal

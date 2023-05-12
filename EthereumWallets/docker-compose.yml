@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: walletsDB
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "wallets"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgrespw"
+    ports:
+      - "5432:5432"

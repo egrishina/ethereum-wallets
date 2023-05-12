@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EthereumWallets.Business\EthereumWallets.Business.csproj" />
+    <ProjectReference Include="..\EthereumWallets.Database\EthereumWallets.Database.csproj" />
+    <ProjectReference Include="..\EthereumWallets.Domain\EthereumWallets.Domain.csproj" />
+    <ProjectReference Include="..\EthereumWallets.Node\EthereumWallets.Node.csproj" />
+  </ItemGroup>
+
+</Project>
